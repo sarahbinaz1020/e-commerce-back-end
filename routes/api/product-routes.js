@@ -34,7 +34,7 @@ router.get('/:id', async (req, res) => {
 // create new product
 router.post('/', async (req, res) => {
   try {
-    const newProduct = await Product.create({
+    const newProduct = await Product.create(req.body);
       /* req.body should look like this...
       {
         product_name: "Basketball",
@@ -43,11 +43,6 @@ router.post('/', async (req, res) => {
         tagIds: [1, 2, 3, 4]
       }
     */
-      product_name: "Basketball",
-      price: 200.00,
-      stock: 3,
-      tagIds: [1, 2, 3, 4]
-    });
     res.status(200).json(newProduct);
   } catch (err) {
     res.status(400).json(err);
