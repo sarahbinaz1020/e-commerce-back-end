@@ -13,4 +13,4 @@ and
 
 ![image of markdown](./Assets/13-orm-homework-demo-03.gif) 
 
-Page is deployed using Heroku at https://github.com/sarahbinaz1020/e-commerce-back-end, along with the wak-through video: 
+Page is deployed using Heroku at https://github.com/sarahbinaz1020/e-commerce-back-end, along with the wak-through video: https://youtu.be/p5BMu-8TUmA
